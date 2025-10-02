@@ -6,21 +6,21 @@
   <name>Indexeddbshim Plugin</name>
 
   <platform name="swt">
-   	<resource-file src="www/js/indexeddbshim.min.js" target="../../src/main/assets/www/js/indexeddbshim.min.js" />
+   	<asset src="www/js/indexeddbshim.min.js" target="js/indexeddbshim.min.js" />
    	<js-module src="www/js/add_res.js" name="indexeddbshimAddRes">
     	 <runs/>
   	</js-module>
   </platform>
   
   <platform name="android">
-   	<resource-file src="www/js/indexeddbshim.min.js" target="../../src/main/assets/www/js/indexeddbshim.min.js" />
+   	<asset src="www/js/indexeddbshim.min.js" target="js/indexeddbshim.min.js" />
    	<js-module src="www/js/add_res.js" name="indexeddbshimAddRes">
     	 <runs/>
   	</js-module>
   </platform>
   
   <platform name="web">
-   	<resource-file src="www/js/indexeddbshim.min.js" target="../../src/main/assets/www/js/indexeddbshim.min.js" />
+   	<asset src="www/js/indexeddbshim.min.js" target=js/indexeddbshim.min.js" />
    	<js-module src="www/js/add_res.js" name="indexeddbshimAddRes">
     	 <runs/>
   	</js-module>
