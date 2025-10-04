@@ -20,7 +20,7 @@
   </platform>
   
   <platform name="web">
-   	<asset src="www/js/indexeddbshim.min.js" target=js/indexeddbshim.min.js" />
+   	<asset src="www/js/indexeddbshim.min.js" target="js/indexeddbshim.min.js" />
    	<js-module src="www/js/add_res.js" name="indexeddbshimAddRes">
     	 <runs/>
   	</js-module>
